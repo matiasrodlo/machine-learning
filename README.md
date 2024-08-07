@@ -12,11 +12,6 @@ Welcome to the **Data Scientist: Machine Learning** repository! This repository 
    - [Machine Learning I](#machine-learning-i)
    - [Machine Learning II](#machine-learning-ii)
    - [Machine Learning III](#machine-learning-iii)
-3. [Portfolio Projects](#portfolio-projects)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Overview
 
