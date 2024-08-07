@@ -60,11 +60,3 @@ plt.fill_between(hour, y_lower, y_upper, alpha=0.2)
 
 # Add the code here:
 plt.show()
-
-# Probability
-
-from simulate import simulate
-
-num_people_in_room = 100 			#Change This Number (keep it smaller than 100 to save processing power)
-
-simulate(num_people_in_room) 
