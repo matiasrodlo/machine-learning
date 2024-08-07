@@ -32,3 +32,12 @@ runtime = 5
 
 # Define the rating_out_of_10 float variable below:
 rating_out_of_10 = 3.2
+
+# Prints "500"
+print(573 - 74 + 1)
+
+# Prints "50"
+print(25 * 2)
+
+# Prints "2.0"
+print(10 / 5)
