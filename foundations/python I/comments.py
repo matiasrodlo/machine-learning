@@ -48,3 +48,11 @@ quilt_width = 8;
 quilt_length = 8;
 
 print(quilt_width * quilt_length)
+
+# Exponents
+
+print(6 ** 2)
+print(7 ** 2)
+print(8 ** 2)
+
+print(6 ** 4)
