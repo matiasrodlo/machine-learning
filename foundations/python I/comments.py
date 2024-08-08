@@ -41,3 +41,10 @@ print(25 * 2)
 
 # Prints "2.0"
 print(10 / 5)
+
+# Changing Numbers
+
+quilt_width = 8;
+quilt_length = 8;
+
+print(quilt_width * quilt_length)
