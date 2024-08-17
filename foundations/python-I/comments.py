@@ -99,3 +99,20 @@ total_price += nice_sweater
 total_price += fun_books
 
 print("The total price is", total_price)
+
+# Multi-line string
+ 
+to_you = """Stranger, if you passing meet me and desire to speak to me, why
+  should you not speak to me?
+And why should I not speak to you?"""
+
+
+print(to_you)
+
+# review 
+
+my_age = 4
+half_my_age = 2
+greeting = "Hello there"
+name = "matias"
+greeting_with_name = greeting + name
