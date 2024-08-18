@@ -33,3 +33,13 @@ def directions_to_timesSq():
 
 # Calling a Function:
 directions_to_timesSq()
+
+# Whitespace and Execution flow
+
+print("Checking the weather for you!")
+
+def weather_check():
+  print("Looks great outside! Enjoy your trip.")
+print("False Alarm, the weather changed! There is a thunderstorm approaching. Cancel your plans and stay inside.")
+
+weather_check()
