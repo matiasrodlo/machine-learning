@@ -43,3 +43,11 @@ def weather_check():
 print("False Alarm, the weather changed! There is a thunderstorm approaching. Cancel your plans and stay inside.")
 
 weather_check()
+
+# Parameters & Arguments
+
+def generate_trip_instructions(location):
+  print("Looks like you are planning a trip to visit " + location)
+  print("You can use the public subway system to get to " + location)
+
+generate_trip_instructions("Grand Central Station")
