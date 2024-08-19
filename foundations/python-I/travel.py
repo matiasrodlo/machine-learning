@@ -96,9 +96,24 @@ favorite_locations = "Paris, Norway, Iceland"
 def print_count_locations():
   print("There are 3 locations")
     
-# This function will print the favorite locations
+# Returns
 def show_favorite_locations():
   print("Your favorite locations are: " + favorite_locations)
 
 print_count_locations()
 show_favorite_locations()
+
+current_budget = 3500.75
+
+def print_remaining_budget(budget):
+  print("Your remaining budget is: $" + str(budget))
+
+print_remaining_budget(current_budget)
+
+# Write your code below: 
+def deduct_expense(budget, expense):
+  return budget - expense
+shirt_expense = 9
+new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
+
+print_remaining_budget(new_budget_after_shirt)
