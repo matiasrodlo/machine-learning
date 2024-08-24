@@ -9,3 +9,7 @@ broken_heights = [65, 71, 59, 62]
 ints_and_strings = [1, 2, 3, "four", "five", "hola"]
 
 sam_height_and_testscore = ["Sam", 67, 85.5, True]
+
+# Empty list
+
+my_empty_list = []
