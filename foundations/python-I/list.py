@@ -49,3 +49,12 @@ last_element = shopping_list[-1]
 index5_element = shopping_list[5]
 print(index5_element)
 print(last_element)
+
+# Modifiying elements from a list
+garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+garden_waitlist[1] = "Calla"
+
+print(garden_waitlist)
+
+garden_waitlist[-1] = "Alex"
+print(garden_waitlist)
