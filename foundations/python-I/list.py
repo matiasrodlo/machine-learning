@@ -13,3 +13,13 @@ sam_height_and_testscore = ["Sam", 67, 85.5, True]
 # Empty list
 
 my_empty_list = []
+
+# Append
+
+orders = ["daisies", "periwinkle"]
+
+print(orders)
+
+orders.append("tulips")
+orders.append("roses")
+print(orders)
