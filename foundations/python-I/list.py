@@ -33,3 +33,10 @@ new_orders = orders + ["lilac", "iris"]
 orders_combined = orders + new_orders
 
 broken_prices = [5, 3, 4, 5, 4] + [4]
+
+# Index of elements
+
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+
+employee_four = employees[3]
+print(employees[4])
