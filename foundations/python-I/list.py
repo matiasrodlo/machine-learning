@@ -40,3 +40,12 @@ employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
 
 employee_four = employees[3]
 print(employees[4])
+
+# Negative Index
+
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list[-1]
+index5_element = shopping_list[5]
+print(index5_element)
+print(last_element)
