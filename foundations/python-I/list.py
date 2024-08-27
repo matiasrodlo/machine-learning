@@ -91,3 +91,14 @@ print(sams_score)
 
 ellies_score = class_name_test[-1][-1]
 print(ellies_score)
+
+#Modifying 2d List:
+incoming_class = [["Kenny", "American", 9], ["Tanya", "Ukrainian", 9], ["Madison", "Indian", 7]]
+
+print(incoming_class)
+
+incoming_class[2][2] = 8
+print(incoming_class)
+
+incoming_class[-3][-3] = "Ken"
+print(incoming_class)
