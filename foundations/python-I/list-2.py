@@ -42,3 +42,12 @@ print(long_list_len)
 
 big_range_length = len(big_range)
 print(big_range_length)
+
+# Slice a list: 
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:2]
+
+print(beginning)
+middle = suitcase[2:4]
