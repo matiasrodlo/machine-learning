@@ -69,7 +69,7 @@ votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "
 jake_votes = votes.count("Jake")
 print(jake_votes)
 
-# Sorting list II
+# Sorting list I
 addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
 
 names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
@@ -80,3 +80,11 @@ print(addresses)
 cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
 sorted_cities = cities.sort(reverse=True)
 print(sorted_cities)
+
+# Sorting list II
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+games_sorted = sorted(games)
+print(games)
+print(games_sorted)
