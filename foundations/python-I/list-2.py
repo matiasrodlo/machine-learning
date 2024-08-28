@@ -24,3 +24,8 @@ print(list(number_list))
 
 zero_to_seven = range(0,8)
 print(list(zero_to_seven))
+
+# Range with skip: 
+
+range_five_three = range(5, 15, 3)
+range_diff_five = range(0, 40, 5)
