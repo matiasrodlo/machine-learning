@@ -22,3 +22,10 @@ for game in board_games:
 
 for sports in sport_games:
   print(sports)
+
+# Loop using range
+
+promise = "I will finish the python loops module!"
+
+for temp in range(5):
+  print(promise)
