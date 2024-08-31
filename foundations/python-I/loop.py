@@ -60,3 +60,11 @@ index = 0
 while index < length:
   print("I am learning about " + python_topics[index])
   index += 1
+
+  # Infinity Loop
+
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+
+for student in students_period_A:
+  print(student)
