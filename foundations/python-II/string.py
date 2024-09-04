@@ -6,3 +6,11 @@ print(favorite_word)
 
 my_name = "Matias Rodlo"
 first_initial = my_name[0]
+
+# Slicing string 
+
+first_name = "Rodrigo"
+last_name = "Villanueva"
+
+new_account = last_name[:5]
+temp_password = last_name[2:6]
