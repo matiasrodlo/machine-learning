@@ -64,7 +64,7 @@ def find_duplicates(birthdays_list, birthday, index):
   else:
     return False
   
-  # Probability
+# Probability
 
 from simulate import simulate
 
