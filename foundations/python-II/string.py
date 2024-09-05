@@ -27,3 +27,15 @@ def account_generator(first_name, last_name):
 new_account = account_generator(first_name, last_name)
 
 print(new_account)
+
+# More and More String Slicing
+
+first_name = "Reiko"
+last_name = "Matsuki"
+first_length = len(first_name)
+last_length = len(last_name)
+
+def password_generator(first_name, last_name):
+  return first_name[first_length-3:] + last_name[last_length-3:]
+
+temp_password = password_generator(first_name, last_name) 
