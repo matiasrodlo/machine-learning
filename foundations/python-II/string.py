@@ -66,3 +66,12 @@ def get_length(word):
   for letter in word:
     counter += 1
   return counter
+
+# Strings and Conditionals (Part One)
+
+def letter_check(word, letter):
+  for character in word:
+    if character == letter:
+      return True
+  return False
+
