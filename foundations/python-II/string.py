@@ -39,3 +39,12 @@ def password_generator(first_name, last_name):
   return first_name[first_length-3:] + last_name[last_length-3:]
 
 temp_password = password_generator(first_name, last_name) 
+
+# Negative Indices
+
+company_motto = "Copeland's Corporate Company helps you capably cope with the constant cacophony of daily life"
+
+second_to_last = company_motto[-2]
+
+final_word = company_motto[-4:]
+
