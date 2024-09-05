@@ -59,3 +59,10 @@ fixed_first_name = "R" + first_name[1:]
 
 password = "theycallme\"crazy\"91"
 
+# Iterating through Strings
+
+def get_length(word):
+  counter = 0
+  for letter in word:
+    counter += 1
+  return counter
