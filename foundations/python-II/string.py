@@ -48,3 +48,10 @@ second_to_last = company_motto[-2]
 
 final_word = company_motto[-4:]
 
+#  Strings are Immutable
+
+first_name = "Bob"
+last_name = "Daily"
+
+fixed_first_name = "R" + first_name[1:]
+
