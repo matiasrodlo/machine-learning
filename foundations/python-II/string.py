@@ -118,3 +118,9 @@ print(poem_title_fixed)
 poem_author_fixed = poem_author.upper()
 print(poem_author)
 print(poem_author_fixed)
+
+# Split String
+
+line_one = "The sky has given over"
+
+line_one_words = line_one.split()
