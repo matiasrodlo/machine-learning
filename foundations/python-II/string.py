@@ -161,3 +161,9 @@ from the withered grass-stems
 of the overhanging embankment."""
 
 spring_storm_lines = spring_storm_text.split('\n')
+
+# Join() method
+
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = ' '.join(reapers_line_one_words)
