@@ -11,18 +11,11 @@ rent = 1500
 total = food_bill + electricity_bill + internet_bill + rent
 
 # Check if the total is greater than the budget and store the result in over_budget
-over_budget = None
+if total > budget:
+  over_budget = True
+else:
+  over_budget = False
 
-def budget_checker(budget, total):
-  global over_budget
-  if (budget >= total):
-    over_budget = False
-  else:
-    over_budget = True
-
-# Uncomment the below lines to see the results
-
-budget_checker(budget, total)
 
 print("Total: " + str(total))
 print("Is it over budget? " + str(over_budget))
