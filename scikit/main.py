@@ -61,3 +61,43 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 scaler = MinMaxScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
+
+# Hyperparameter Tunning - KNN
+def tune_model(X_train, y_train):
+    param_grid = {
+        "n_neighborns":range(1,21),
+        "metric": ["euclidean", "manhattan", "minkowski"],
+        "weights": ["uniform", "distance"]
+    }
+
+    model = KNeighborsClassifier()
+    grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train)
+    return grid_search.best_estimator_
+
+best_model = tune_model(X_train, y_train)
+
+# Predictions and evaluate
+
+def evaluate_model(model, X_test, y_test):
+    prediction = model.predict(X_test)
+    accuracy = accuracy_score(y_test, prediction)
+    matrix = confusion_matrix(y_test, prediction)
+    return accuracy, matrix
+
+accuracy, matrix = evaluate_model(best_model, X_test, y_test)
+
+print(f'Accuracy: {accuracy*100:.2f}%')
+print(f'Confusion Matrix:')
+print(matrix)
+
+# Plot
+def plot_model(matrix):
+    plt.figure(figsize=(10,7))
+    sns.heatmap(matrix, annot=True, fmt="d", xticklabels=["Survived", "Bot Survived"], yticklabels=["Not Survived", "Survived"])
+    plt.title("Confusion Matrix")
+    plt.xlabel("Predict Value")
+    plt.ylabel("True Values")
+    plt.show()
+
+plot_model(matrix)
